@@ -31,4 +31,4 @@ jobs:
           user_name: edscript
           user_email: edscript@outlook.com
           publish_branch: main
-        #   cname: example.com
+          cname: edscript.today
