@@ -1,0 +1,13 @@
+[en]
+  title = "Hugo Zzo Theme"
+  languageName = "English"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/en"
+
+[pt]
+  title = "edscript blog"
+  languageName = "Portuguese"
+  weight = 2
+  languagedir = "ltr"
+  contentdir = "content/pt"

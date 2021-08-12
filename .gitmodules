@@ -1,0 +1,6 @@
+[submodule "themes/zoo"]
+	path = themes/zoo
+	url = https://github.com/edscript/hugo-theme-zzo.git
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = https://github.com/edscript/hugo-theme-zzo.git
