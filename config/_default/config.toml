@@ -1,4 +1,4 @@
-baseURL = "http://edscript.today"
+baseURL = "https://edscript.today"
 title = "Hugo Zzo Theme"
 theme = "zzo"
 
