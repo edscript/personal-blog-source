@@ -4,7 +4,7 @@ description = "Blog de programação reportado por Eduardo Carvalho"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
-meta_image = ""
+meta_image = "https://edscript.today/images/whoami/avatar.jpg"
 themecolor = ""
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]

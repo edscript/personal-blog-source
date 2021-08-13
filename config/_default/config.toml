@@ -1,5 +1,5 @@
 baseURL = "https://edscript.today"
-title = "Hugo Zzo Theme"
+title = "edscript blog"
 theme = "zzo"
 
 defaultContentLanguage = "pt"

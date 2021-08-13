@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zzo theme",
-  "short_name": "Hugo Zzo theme",
+  "name": "Eduardo Carvalho blog",
+  "short_name": "edscript blog",
   "version": "1.0.0",
-  "default_locale": "en",
-  "description": "Hugo blog theme with rich features",
-  "start_url": "https://themes.gohugo.io/theme/hugo-theme-zzo/",
+  "default_locale": "pt",
+  "description": "Blog reportado por Eduardo Carvalho para criar uma melhor comunidade de programadores.",
+  "start_url": "https://edscript.today/",
   "icons": [
     {
       "src": "favicon/android-icon-36x36.png",
