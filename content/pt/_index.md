@@ -6,18 +6,18 @@ header:
       - pauseFor: 800
       - deleteAll: false
       - typeString: Foco em unir e ajudar a comunidade!
-      - pauseFor: 1500
+      - pauseFor: 800
       - deleteChars: 35
       - typeString: <strong>edscript.world</strong>
       - pauseFor: 1000
     options:
       loop: false
       autoStart: false
-    height: 180
-    paddingX: 20
+    height: 280
+    paddingX: 100
     align: center
-    fontSize: 30
-    fontColor: white
+    fontSize: 31
+    fontColor: PaleGreen
 
   - type: text
     height: 200

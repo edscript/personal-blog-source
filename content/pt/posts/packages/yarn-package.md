@@ -15,6 +15,7 @@ categories:
 - package
 - node
 image: images/packages/yarn.png
+meta_image: images/packages/yarn.png
 ---
 
 ## Markdownify box
