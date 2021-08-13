@@ -2,23 +2,23 @@
 header:
   - type: typewriter
     methods:
-      - typeString: Hello world!
-      - pauseFor: 2500
-      - deleteAll: true
-      - typeString: Strings can be removed
-      - pauseFor: 2500
-      - deleteChars: 7
-      - typeString: <strong>altered!</strong>
-      - pauseFor: 2500
+      - typeString: Compartilhar conhecimento...
+      - pauseFor: 800
+      - deleteAll: false
+      - typeString: Foco em unir e ajudar a comunidade!
+      - pauseFor: 1500
+      - deleteChars: 35
+      - typeString: <strong>edscript.world</strong>
+      - pauseFor: 1000
     options:
-      loop: true
+      loop: false
       autoStart: false
-    height: 190
-    paddingX: 50
+    height: 180
+    paddingX: 20
     align: center
-    fontSize: 44
-    fontColor: yellow
-    
+    fontSize: 30
+    fontColor: white
+
   - type: text
     height: 200
     paddingX: 50
@@ -28,14 +28,14 @@ header:
       - HUGO
     subtitle:
       - The world’s fastest framework for building websites
-    titleColor: 
+    titleColor:
     titleShadow: true
     titleFontSize: 44
-    subtitleColor: 
+    subtitleColor:
     subtitleCursive: true
     subtitleFontSize: 18
     spaceBetweenTitleSubtitle: 16
-  
+
   - type: img
     imageSrc: images/header/background.jpg
     imageSize: cover
