@@ -25,7 +25,7 @@ Atualmente o Docker está no **hype** uns dizem que é pelos micro-serviços out
 
 ## Um bocadinho de história 👴
 
-Para perceber o motivo da existência do Docker vamos começar por contar um pouco da história.
+Para perceber o motivo da existência do Docker vamos começar por contar um pouco da história dos servidores e como as aplicações eram executadas nos mesmos.
 
 Hoje em dia é quase impossível distinguir o negócio e a aplicação que o "alimenta".
 
@@ -70,8 +70,7 @@ Os containers interagem diretamenete com o Sistema Operativo do servidor, não e
 ![Gasto de recursos com containers](/images/infra/docker/containers.png)
 
 #### Diferenças entre VMs
-**Hypervisors** virtualizam hardware (CPUs, RAM, networks...).
-**Containers** virtualizam o sistema operativo (cada um tem o seu processo, root file system, eth0...)
+**Hypervisors** virtualizam hardware (CPUs, RAM, networks...) enquanto os **containers** virtualizam o sistema operativo (cada um tem o seu processo, root file system, eth0...)
 
 Cada **VM** num servidor partilha o mesmo hardware, cada **container** partilha o mesmo kernel do S.O e porque existe apenas um kernel os containers são mais pequenos, rápidos e mais "leves" que VMs.
 
@@ -80,7 +79,7 @@ Cada **VM** num servidor partilha o mesmo hardware, cada **container** partilha 
 #### Funcionamento
 
 O desenvolvimento durante muitos anos seguia o ditado "cada um faz da sua maneira", o Docker fornece uma maneira consistente de "entregar" o código em diferentes ambientes.
-Através de uma `image` que é utilizado para construír um **container** e apenas de *read-only*, contém os ficheiros necesários (Sistema Operativo com o código da aplicação e o runtime para correr a aplicação), resumindo é um blueprint para correr um container.
+Através de uma `image` que é utilizado para construír um **container** e apenas de leitura (*read-only*), contém os ficheiros necesários (Sistema Operativo com o código da aplicação e o runtime para correr a aplicação), resumindo é um blueprint para correr um container.
 
 O ``container`` é criada através de uma **image** com uma camada que permite escrever (*write*) dados. O motivo dos containers terem um tempo de inicialização tão curto é porque terem apenas esta camada de escrita, pois a `image` é que contém o software a correr.
 
