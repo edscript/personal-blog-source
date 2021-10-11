@@ -2,7 +2,7 @@
 title: "Comandos de Docker"
 date: 2021-08-22T02:40:51+09:00
 description: Comandos mais utilizados de Docker de forma a evitar consultar a documentação e explicar o que o comando faz em Português.
-draft: true
+draft: false
 hideToc: false
 enableToc: true
 enableTocContent: true
