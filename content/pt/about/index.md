@@ -2,7 +2,7 @@
 title = "Sobre"
 description = "Sobre Eduardo Carvalho aka edscript"
 type = "about"
-date = "2021-08-24"
+date = "2021-08-26"
 +++
 
 # Um pouco sobre mim
